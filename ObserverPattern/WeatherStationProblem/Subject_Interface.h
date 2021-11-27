@@ -1,7 +1,7 @@
 #ifndef _Subject_H_
 #define _Subject_H_
 
-class Observer; //Forward declaration until we define the observer interface
+#include "Observer_Interface.h"
 
 class Subject {
 public:

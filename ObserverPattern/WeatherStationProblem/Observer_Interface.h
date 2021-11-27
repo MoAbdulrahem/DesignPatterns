@@ -4,7 +4,7 @@
 
 class Observer{
     virtual ~Observer() = default;
-    virtual void update(double t, double h, double p) = 0;
+    virtual void update(double t, double p, double h) = 0;
 };
 
 #endif
