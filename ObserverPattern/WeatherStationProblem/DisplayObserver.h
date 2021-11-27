@@ -24,7 +24,6 @@ private:
 
 // Implementation
 
-
 inline void Display::update(double t, double p, double h) {
     this->temp = t;
     this->pressure = p;
