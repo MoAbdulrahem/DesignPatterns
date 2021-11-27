@@ -25,7 +25,7 @@ inline void WeatherData::register_observer(Observer *o) {
 }
 
 inline void WeatherData::remove_observer(Observer *o) {
-    std::erase(observersl, o);
+    std::erase(observers, o);
 }
 
 inline void WeatherData::notify(){
