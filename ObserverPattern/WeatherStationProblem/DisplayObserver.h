@@ -36,4 +36,5 @@ inline void Display::display_changes() {
     std::cout << "Pressure = " << p << std::endl;
     std::cout << "Humidity = " << h << std::endl;
 }
+
 #endif
