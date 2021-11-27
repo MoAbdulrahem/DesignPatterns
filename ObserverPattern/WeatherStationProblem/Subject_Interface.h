@@ -6,9 +6,9 @@ class Observer; //Forward declaration until we define the observer interface
 class Subject {
 public:
     virtual ~Subject() = default;
-    virtual register_observer(Observer *o) = 0;
-    virtual remove_observer(Observer *o) = 0;
-    virtual notify() = 0;
+    virtual void register_observer(Observer *o) = 0;
+    virtual void remove_observer(Observer *o) = 0;
+    virtual void notify() = 0;
 };
 
 #endif
