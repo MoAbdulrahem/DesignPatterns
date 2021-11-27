@@ -4,7 +4,7 @@
 #include "Subject_Interface.h"
 #include "Observer_Interface.h"
 
-class WeatherData : public Subject(){
+class WeatherData : public Subject{
 public:
     WeatherData() = default;
     void register_observer(Observer *) override;
