@@ -1,10 +1,10 @@
 #ifndef _WeatherData_H_
-#defing _WeatherData_H_
+#define _WeatherData_H_
 #include <list>
 #include "Subject_Interface.h"
 #include "Observer_Interface.h"
 
-class WeatherData : public Subject(){
+class WeatherData : public Subject{
 public:
     WeatherData() = default;
     void register_observer(Observer *) override;
