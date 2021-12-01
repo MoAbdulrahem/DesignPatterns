@@ -15,7 +15,6 @@ public:
     void display_changes();
 
 private:
-    
     Subject *WeatherData;
     int number_of_readings = 0;
     double temp = 0.0f;
